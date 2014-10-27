@@ -1,0 +1,78 @@
+.navbar-default
+  background-color shaded-bgnd
+  border-color border-color
+  color body-text
+
+.navbar-default .navbar-nav > li > span.current-page
+.navbar-default .navbar-nav > li > span.current-manager
+  background-color hilite-bgnd
+  color success-color
+  display block
+  line-height 20px
+  padding 15px
+  position relative
+
+.navbar-default .navbar-nav > li > span.current-manager
+  background-color shaded-bgnd
+
+.navbar-default .navbar-brand
+.navbar-default span.navbar-brand:hover
+  color base-color
+
+.navbar-default .navbar-nav > li > a
+  color body-text
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+  border-color footer-text
+
+.dropdown-menu > li > span.current-page
+  clear both
+  color success-color
+  display block
+  font-weight normal
+  line-height 1.42857143
+  padding 3px 20px
+  white-space nowrap
+
+.header-login-form
+  margin-top 10px
+
+td.unread
+  font-weight bold
+
+.caret
+  margin-left 3px
+
+.profile-icon
+  color info-color
+
+.profile-icon:before
+  font-size 20px
+  line-height 0.5
+  margin 0
+  padding 0
+  vertical-align middle
+
+li > span.this-page
+  display inline-block
+  line-height 20px
+  padding 15px
+
+li.current-member > span.this-page .profile-icon
+li.current-manager > span.this-page .profile-icon
+  color success-color
+
+.navbar-default .navbar-nav li > a:hover
+.navbar-default .navbar-nav li > a:hover .profile-icon
+.navbar-default a.navbar-brand:hover
+  color danger-color
+
+
+@media(min-width: 768px) and (max-width: 991px)
+  .navbar-form input[type=text]
+  .navbar-form input[type=password]
+    width 160px
+
+@media (max-width: 767px)
+  .navbar-nav .open .dropdown-menu > li > span
+    padding 5px 15px 5px 25px

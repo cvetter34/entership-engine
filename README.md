@@ -1,4 +1,4 @@
-entership-engine
-================
+EntershipShared
+=======
 
-Final Entership engine app.
+EnterShip rails engine
